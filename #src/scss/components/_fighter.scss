@@ -1,0 +1,21 @@
+.fighter {
+    text-align: left;
+    margin: 0 auto;
+
+    li {
+        margin-bottom: 20px;
+    }
+
+    .fighter-first {
+        text-align: right;
+    }
+
+    &__body {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__stats {
+        margin: 0 20px;
+    }
+}
